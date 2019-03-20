@@ -1,6 +1,4 @@
-'''
-The end goal for this algo is to use postive or negative relationship between two or more companies to predict prices of the stock
-'''
+
 
 import requests
 import bs4 as bs
