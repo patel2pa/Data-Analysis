@@ -14,7 +14,10 @@ import numpy as np
 
 
 
-
+'''
+Function uses web scraper to get tags of S&P 500 companies from wikipedia
+ and saves it in the tickers variable and returns it. 
+'''
 def save_sp500_tickers():
     resp = requests.get('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')
     soup = bs.BeautifulSoup(resp.text)
@@ -26,8 +29,9 @@ def save_sp500_tickers():
     print(tickers)
     return tickers
 
-
-
+'''
+Function uses the
+'''
 def get_data_from_yahoo():
     #tickers = save_sp500_tickers
     tickers = ['GIS', 'GM', 'GPC', 'GILD', 'GPN', 'GS', 'GT']
