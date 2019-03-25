@@ -1,12 +1,7 @@
 
-
 '''
-for the first algo, which will be a simple algo, will compare the volume
-with the movement of the price, do this by finding the percent change
-of the volume and also the percent change of the price. find pattern,
-the end goal is to "predict the future". 
-find the corralation between two company, in which the company A moves 
-and company B moves one day after company B, this is to predict the future
+pulling stock data from yahoo, then 
+doing a brief analysis using panda, numpy and sklearn
 '''
 
 import requests
