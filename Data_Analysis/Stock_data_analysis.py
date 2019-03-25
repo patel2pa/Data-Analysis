@@ -1,7 +1,9 @@
 '''
-For this algo, the table will have the values of open, percent change in volume and
-adj close will be use as the label. The theory is that the amount of volume will have an impact on the
-adj close price
+Pull Data from the web using request, 
+formatted using beautifulsoup, 
+saved the data into pandas, 
+used three machine learning algorithm 
+to analye the data
 '''
 
 #need to change the algo, get rid of the price depandence
