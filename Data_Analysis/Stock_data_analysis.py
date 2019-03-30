@@ -5,10 +5,6 @@ saved the data into pandas,
 used three machine learning algorithm 
 to analye the data
 '''
-
-#need to change the algo, get rid of the price depandence
-# need to add a different parameter
-
 import requests
 import bs4 as bs
 import pandas as pd
